@@ -1,4 +1,4 @@
 FROM busybox
-RUN useradd guru
+RUN adduser guru
 USER guru
 

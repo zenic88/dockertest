@@ -1,4 +1,4 @@
 FROM busybox
-RUN adduser guru
-USER guru
+MAINTAINER zenic88
 
+CMD ["echo","Hello world~!"]
